@@ -6,7 +6,7 @@ from langchain.chains import LLMChain, SimpleSequentialChain
 from langchain.prompts import PromptTemplate
 
 # Set the environment variable for the Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCkLcgdJwKwGOydaL3dxfJIcopEc7PXYWI"
+os.environ["GOOGLE_API_KEY"] = "your_api_key"
 
 # Initialize Model
 llm = ChatGoogleGenerativeAI(model="gemini-pro")
